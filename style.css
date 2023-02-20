@@ -1,0 +1,279 @@
+body {
+    background-color: rgb(154, 166, 226);
+    font-family: sans-serif;
+}
+
+#mainHeading {
+    font-family: serif;
+    width: 515px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 22px auto;
+}
+
+.taskContainer {
+    background-color: rgb(186, 198, 252);
+    width: 515px;
+    min-height: 380px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#inputTask {
+    background-color: rgb(211, 218, 252);
+    width: 400px;
+    height: 50px;
+    padding: 2px;
+    padding-left: 10px;
+    margin: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#addTask {
+    background-color: black;
+    color: white;
+    float: right;
+    width: 70px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#showTask {
+    background-color: rgb(211, 218, 252);
+    display: inline-block;
+    width: 300px;
+    min-height: 30px;
+    padding: 4px;
+    margin: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#deleteTask {
+    background-color: black;
+    color: white;
+    float: right;
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#printDate {
+    background-color: black;
+    color: white;
+    float: right;
+    width: 70px;
+    height: 39px;
+    padding: 1px 5px;
+    margin: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+/* Footer */
+footer {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    width: 525px;
+    margin: auto;
+}
+
+@media (max-width:560px) 
+{
+    #mainHeading {
+        width: 315px;
+        text-align: center;
+        font-size: 45px;
+        margin: 12px auto;
+    }
+
+    .taskContainer {
+        width: 415px;
+        min-height: 550px;
+        padding: 10px;
+    }
+
+    #inputTask {
+        width: 335px;
+        height: 40px;
+        padding-left: 8px;
+        margin: 3px;
+        font-size: 18px;
+    }
+    
+    #addTask {
+        width: 55px;
+        height: 40px;
+        padding: 2px;
+        margin: 2px;
+        font-size: 18px;
+    }
+    
+    #showTask {
+        width: 270px;
+        min-height: 25px;
+        padding: 2px;
+        margin: 3px;
+        font-size: 18px;
+    }
+    
+    #deleteTask {
+        width: 55px;
+        height: 30px;
+        margin: 3px;
+        font-size: 15px;
+    }
+    
+    #printDate {
+        width: 60px;
+        height: 30px;
+        padding: 1px;
+        margin: 3px;
+        font-size: 12px;
+    }
+    footer {
+        text-align: center;
+        width: 425px;
+        margin: auto;
+    }
+}
+
+
+@media (max-width:450px) 
+{
+    #mainHeading {
+        width: 215px;
+        text-align: center;
+        font-size: 35px;
+        margin: 5px auto;
+    }
+
+    .taskContainer {
+        width: 315px;
+        min-height: 550px;
+        padding: 5px;
+    }
+
+    #inputTask {
+        width: 245px;
+        height: 30px;
+        padding-left: 5px;
+        margin: 2px;
+        font-size: 15px;
+    }
+    
+    #addTask {
+        width: 50px;
+        height: 30px;
+        padding: 2px;
+        margin: 2px;
+        font-size: 15px;
+    }
+    
+    #showTask {
+        width: 190px;
+        min-height: 25px;
+        padding: 2px;
+        margin: 2px;
+        font-size: 15px;
+    }
+    
+    #deleteTask {
+        width: 50px;
+        height: 33px;
+        margin: 2px;
+        font-size: 13px;
+    }
+    
+    #printDate {
+        width: 50px;
+        height: 27px;
+        padding: 2px;
+        margin: 2px;
+        font-size: 10px;
+    }
+    footer {
+        text-align: center;
+        width: 325px;
+        margin: auto;
+    }
+}
+
+@media (max-width:330px) 
+{
+    #mainHeading {
+        width: 215px;
+        text-align: center;
+        font-size: 30px;
+        margin: 5px auto;
+    }
+
+    .taskContainer {
+        width: 215px;
+        min-height: 550px;
+        padding: 5px;
+    }
+
+    #inputTask {
+        width: 155px;
+        height: 30px;
+        padding-left: 5px;
+        margin: 2px;
+        font-size: 15px;
+    }
+    
+    #addTask {
+        width: 40px;
+        height: 30px;
+        padding: 2px;
+        margin: 2px;
+        font-size: 15px;
+    }
+    
+    #showTask {
+        width: 115px;
+        min-height: 20px;
+        padding: 2px;
+        margin: 2px;
+        font-size: 15px;
+    }
+    
+    #deleteTask {
+        width: 40px;
+        height: 28px;
+        margin: 1px;
+        font-size: 10px;
+    }
+    
+    #printDate {
+        width: 35px;
+        height: 20px;
+        padding: 2px;
+        margin: 2px;
+        font-size: 8px;
+    }
+    footer {
+        text-align: center;
+        width: 225px;
+        margin: auto;
+    }
+}
